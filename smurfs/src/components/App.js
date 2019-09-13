@@ -16,6 +16,8 @@ function App({getSmurf, smurf, addSmurf}) {
       getSmurf();
   },[getSmurf])
 
+  
+
   const importSmurf = (name,age,height) => {
     console.log("IMPORTSTUFF: ", name,age,height);
     addSmurf(name,age,height);

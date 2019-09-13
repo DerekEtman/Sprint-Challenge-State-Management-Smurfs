@@ -22,10 +22,10 @@ export const AddSmurf = (props) => {
     }
 
     const handleSubmit = e => {
-        e.preventDefault();
+        // e.preventDefault();
         console.log("CLICKED", name, age, height);
         importSmurf(name, age, height);
-
+        props.history.push('/');
     }
 
     return(
