@@ -30,32 +30,32 @@ export const AddSmurf = (props) => {
 
     return(
       <>
-        <div className="searchBar">
+        <div className="smurfBar">
             <form onSubmit={handleSubmit}>
                 <div>
-                    <p>Name: 
+                    <p>Name: </p>
                     <input 
                     type="text" 
                     name="smurfName" 
                     className="addSmurfField"
                     value={name}
                     onChange={handleNameChanges}
-                    /></p>
+                    />
                 </div>
 
                 <div>
                 <p>Age: 
+                    </p>
                 <input 
                 type="number"
                 name="smurfAge"
                 className="addSmurfField"
                 onChange={handleAgeChanges}
                 />
-                </p>
                 </div>
 
                 <div>
-                Height: 
+                <p>Height: </p>
                 <input
                 type="number"
                 name="smurfHeight"
@@ -64,7 +64,7 @@ export const AddSmurf = (props) => {
                 />
                 </div>
                 
-                <button className="searchButton" onClick={handleSubmit} >
+                <button className="smurfButton" onClick={handleSubmit} >
                     Add a smurf
                 </button>
             </form>

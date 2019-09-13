@@ -23,12 +23,16 @@ function App({getSmurf, smurf, addSmurf}) {
 
 
     return (
-      <div className="App">
+      <>
+      <div className="App-header">
         <h1>Smurf Concensus 2019</h1>
+      </div>
+      <div className="App">
         <p> Please fill out the data requested</p>
         <AddSmurf importSmurf={importSmurf}/>
         <SmurfList smurf={smurf}/>
       </div>
+      </>
     );
 };
 
