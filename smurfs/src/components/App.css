@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #88CCFF;
+  padding: 20px;
 }
 
 .App-logo {
@@ -8,10 +10,13 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  background-color: white;
+  height: 10vh;
+  padding: 1rem;
+  width:100%;
+  color: #88CCFF;
+  margin: 0 auto;
+
 }
 
 .App-title {
@@ -25,4 +30,29 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.smurfBar{
+  border: 3px solid white;
+  margin: 0 auto;
+  padding: 1rem;
+  color:white;
+  width:50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addSmurfField, .smurfButton{
+  margin: .5rem auto;
+  width: 60%;
+}
+
+
+.smurf_card{
+  border: 3px solid white;
+  margin: 2rem auto;
+  padding: 1rem;
+  color:white;
+  width:50%;
 }
